@@ -1,0 +1,19 @@
+tempdata中的air_weather_geo.csv中的变量名含义：
+
+airdata的原始列（含义参考书212页）：
+'Year', 'Month', 'DayofMonth', 'DayOfWeek', 'CRSDepTime', 'CRSArrTime','UniqueCarrier', 'ArrDelay', 'DepDelay', 'Origin', 'Dest', 
+
+'delay'：是否delay，是为1，否为0
+
+以下是起飞机场的天气状况（具体含义参考书213页）：
+'Meantemp', 'Meandewpoint', 'Meanhumidity','Meansealevelpre', 'Meanvisibility', 'Meanwindspeed', 'Rainfall', 'Cloudcover', 
+
+以下是到达机场的天气状况（关于到达机场的的情况均以_arr结尾）:
+'Meantemp_arr', 'Meandewpoint_arr','Meanhumidity_arr', 'Meansealevelpre_arr', 'Meanvisibility_arr', 'Meanwindspeed_arr', 'Rainfall_arr', 'Cloudcover_arr', 
+
+以下是起飞机场的地理位置信息：
+'airport', 'city', 'state', 'country', 'lat', 'long'
+
+以下是到达机场的地理位置信息（_arr结尾）：
+'airport_arr', 'city_arr', 'state_arr', 'country_arr', 'lat_arr', 'long_arr'
+
